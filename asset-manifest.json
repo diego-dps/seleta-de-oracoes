@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/seleta-de-oracoes/static/css/main.5fa017c8.css",
+    "main.js": "/seleta-de-oracoes/static/js/main.d6f4b935.js",
+    "index.html": "/seleta-de-oracoes/index.html",
+    "main.5fa017c8.css.map": "/seleta-de-oracoes/static/css/main.5fa017c8.css.map",
+    "main.d6f4b935.js.map": "/seleta-de-oracoes/static/js/main.d6f4b935.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fa017c8.css",
+    "static/js/main.d6f4b935.js"
+  ]
+}
