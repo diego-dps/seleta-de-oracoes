@@ -5,15 +5,15 @@ export const sections=[
         list:[
             {
                 name:'Oração da Manhã',
-                link:''
+                link:'/litany'
             },
             {
                 name:'Oração da Noite',
-                link:''
+                link:'/oracao'
             },
             {
                 name:'Oração Pré-almoço',
-                link:''
+                link:'/prayer'
             },
             {
                 name:'Oração Pós-almoço',

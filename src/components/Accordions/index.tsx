@@ -9,6 +9,7 @@ import {
   Divider,
 } from "@chakra-ui/react";
 import { sections } from "../../data/sections";
+import { Link } from "react-router-dom";
 function Cards() {
   return (
     <Accordion>
@@ -26,10 +27,21 @@ function Cards() {
             <AccordionPanel pb={4}>
               {item.list?.map((itemList) => (
                 <>
-                  <Box fontSize={"sm"} pl={"20px"} mt={"10px"}>
-                    {itemList.name}
+                <Link to={itemList.link}>
+                  <Box
+                    _hover={{
+                      background: "#f1f1f1",
+                      color: "grey",
+                    }}
+                  >
+                    <Box fontSize={"sm"} pl={"20px"} mt={"10px"}>
+                      <>
+                        {itemList.name}
+                      </>
+                    </Box>
+                    <Divider mt={"10px"} />
                   </Box>
-                  <Divider mt={"10px"} />
+                  </Link>
                 </>
               ))}
             </AccordionPanel>

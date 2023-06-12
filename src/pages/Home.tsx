@@ -1,15 +1,16 @@
 import * as React from "react";
 import Accordions from "../components/Accordions";
-import { Center, Heading } from "@chakra-ui/react";
+import { Box, Center, Heading, Image } from "@chakra-ui/react";
+import Navbar from "../components/Navbar";
+import Paths from "../routes/routes";
 
 function Home() {
   return (
-    <>
-      <Center mt={"20px"} mb={"20px"}>
-        <Heading size={"lg"}>Seleta de Orações</Heading>
+    <Box>
+      <Center>
+        <Image src="https://upload.wikimedia.org/wikipedia/commons/7/77/Almeida_J%C3%BAnior_-_Cristo_crucificado%2C_1889.JPG" />
       </Center>
-      <Accordions />
-    </>
+    </Box>
   );
 }
 
